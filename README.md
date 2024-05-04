@@ -19,8 +19,8 @@ Split the text into individual articles.
 Sentiment Analysis:
 Calculated sentiment scores for each article using the Afinn library.
 Emotional Analysis:
-Converted text data to numerical features using CountVectorizer, generating token count matrices.
-Trained a Naive Bayes classifier to predict emotion probabilities for each sentence after transforming them into numerical features.
+Converted text data to tokens using bert-tokenizer.
+Trained a BERT algorithm to predict emotion probabilities for each sentence after transforming them into tokens.
 
 
 Dependencies:
